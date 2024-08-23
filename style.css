@@ -1,0 +1,73 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family:Arial,Helvetica,sans-serif;
+	background: #00b09b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.formulario{
+	width: 95%;
+	max-width:  500px;
+	margin:auto;
+	border-radius:7px;
+	background: #00F260;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.tituloForm {
+	background: #335BFF;
+	color:#FFFF;
+	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom: 5px solid black;
+}
+.contenedorForm{
+	padding: 10px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+input{
+	margin-bottom: 15px;
+	padding: 15px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid darkgray;
+}
+a {
+	padding: 15px;
+	font-size: 16px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.input48{
+	width: 48%;
+}
+.input100{
+	width: 100%;
+	
+}
+.btnEnviar{
+	color: white;
+	font-size: 20px;
+	background: red;
+	border: 2px solid black;
+	margin: auto;
+}
+.btnEnviar:hover{
+	cursor: pointer;
+	background: deepskyblue;
+	border:2px solid black;
+}
+input:hover {
+	transform: translate(3px);
+	border-color: crimson;
+	cursor: pointer;
+}

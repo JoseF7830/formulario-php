@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>formulario</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form action="guardar.php" method="post" class="formulario" onsubmit="">
+		<h1 class="tituloForm">Crear una Cuenta </h1>
+		<div class="contenedorForm">
+			<input type="text" name="nombre" id="nombre" class="input48" placeholder="Nombre">
+			<input type="text" name="apellido" id="apellido" class="input48" placeholder="Apellido">
+			<input type="text" name="direccion" id="direccion" class="input100" placeholder="Direccion">
+			<input type="text" name="telefono" id="telefono" class="input48" placeholder="Telefono">
+			<input type="text" name="correo" id="correo" class="input48" placeholder="Correo">
+			<input type="text" name="pass" id="pass" class="input100" placeholder="Password">
+			<input type="submit" value="Enviar" class="btnEnviar" onclick="return validacion();">
+		</div>
+
+	</form>
+<script src="./validar.js"></script>
+</body>
+
+
+</html>
